@@ -15,10 +15,11 @@ Os detalhes de cada objetivo estão listados abaixo:
 Exibir uma lista de filmes consultando a api versão **3** do **themoviesdatabase**. 
 * **Passo 1:** Obtenha uma key para utilizar a api neste [link](https://developers.themoviedb.org/3/getting-started/introduction)
 * **Passo 2:** Obter os filmes obtidos no endpoint /discover/movie:
-```https://api.themoviedb.org/3/discover/movie?api_key=<your_api_key>```
+
+   ```https://api.themoviedb.org/3/discover/movie?api_key=<your_api_key>```
 * **Passo 3:** Exibir os filmes seguindo o layout proposto abaixo:
 
-![alt text](http://url/to/img.png)
+![screenshot](https://github.com/vivadecora/vd-android-test/blob/master/Android-1.png)
 
 **A listagem deve ter paginação automática (scroll infinito) e cada request deve requisitar 25 itens**
 
@@ -27,9 +28,11 @@ Queremos promover a visualização dos filmes da Marvel. Para isso devemos:
 * Inserir um item (custom view) na lista de filmes. Este item irá se repetir a cada "n" filmes (exemplo: 4 filmes, item promocional, 4 filmes, item promocional...)
 * O intervalo "n" pode ficar definido em uma variável com o valor inicial 4. Iremos testar esta funcionalidade com valores diferentes.
 * Esse item deve ser exibido seguindo o layout sugerido abaixo:
-![alt text](http://url/to/img.png)
+
+  ![Tela 1](https://github.com/vivadecora/vd-android-test/blob/master/android-3.png)
 
 Ao clicar neste item, devemos mostrar a lista de filmes com o termo sugerido. Deve ter o layout sugerido anteriormente no objetivo 1. Para isso você deve obter os filmes neste endpoint:
+
 ```https://api.themoviedb.org/3/search/movie?query=marvel&api_key=<your_api_key>```
 
 Aqui também é esperado o scroll infinito, e 25 itens por requisição
@@ -37,9 +40,15 @@ Utilizamos o termo marvel como sugestão. Sinta-se a vontade para promover outro
 
 ## Objetivo 3
 Criar uma tela que exibe o detalhe do item. Esta tela deve seguir o layout proposto abaixo. Sinta-se a vontade para adicionar novos recursos
-![alt text](http://url/to/img.png)
+
+![](https://github.com/vivadecora/vd-android-test/blob/master/Android-2.0.png)
+![](https://github.com/vivadecora/vd-android-test/blob/master/Android-2.png)
 
 Esta tela será exibida quando o item da lista for clicado, seja a lista do **objetivo 1** ou do **objetivo 2**.
+
+###Asset para uso:
+
+![](https://github.com/vivadecora/vd-android-test/blob/master/captain-marvel.png)
 
 ## Plus:
 * Clean Architecture

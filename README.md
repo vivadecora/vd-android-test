@@ -12,16 +12,15 @@ Seu objetivo é desenvolver um aplicativo em Kotlin, contemplando  os objetivos 
 Os detalhes de cada objetivo estão listados abaixo:
 
 ## Objetivo 1
-Exibir uma lista de filmes consultando a api versão **3** do **themoviesdatabase**. 
+Exibir uma lista de filmes consultando a api versão **3** do **The Movies Database**. Esta lista deve ter paginação automática (scroll infinito) e cada request deve requisitar 25 itens
 * **Passo 1:** Obtenha uma key para utilizar a api neste [link](https://developers.themoviedb.org/3/getting-started/introduction)
-* **Passo 2:** Obter os filmes obtidos no endpoint /discover/movie:
+* **Passo 2:** Obter os filmes obtidos no endpoint `/discover/movie`:
 
    ```https://api.themoviedb.org/3/discover/movie?api_key=<your_api_key>```
 * **Passo 3:** Exibir os filmes seguindo o layout proposto abaixo:
 
 ![screenshot](https://github.com/vivadecora/vd-android-test/blob/master/Android-1.png)
 
-**A listagem deve ter paginação automática (scroll infinito) e cada request deve requisitar 25 itens**
 
 ## Objetivo 2
 Queremos promover a visualização dos filmes da Marvel. Para isso devemos:
@@ -31,29 +30,29 @@ Queremos promover a visualização dos filmes da Marvel. Para isso devemos:
 
   ![Tela 1](https://github.com/vivadecora/vd-android-test/blob/master/android-3.png)
 
-Ao clicar neste item, devemos mostrar a lista de filmes com o termo sugerido. Deve ter o layout sugerido anteriormente no objetivo 1. Para isso você deve obter os filmes neste endpoint:
+Ao clicar neste item, devemos mostrar a lista de filmes com o termo sugerido. Deve ter o layout sugerido anteriormente no **Objetivo 1**. Para isso você deve obter os filmes neste endpoint:
 
 ```https://api.themoviedb.org/3/search/movie?query=marvel&api_key=<your_api_key>```
 
-Aqui também é esperado o scroll infinito, e 25 itens por requisição
-Utilizamos o termo marvel como sugestão. Sinta-se a vontade para promover outros filmes.
+Aqui também é esperado o scroll infinito, e 25 itens por requisição.
+Utilizamos o termo *marvel* como sugestão. Sinta-se a vontade para promover outros filmes.
 
 ## Objetivo 3
-Criar uma tela que exibe o detalhe do item. Esta tela deve seguir o layout proposto abaixo. Sinta-se a vontade para adicionar novos recursos
+Criar uma tela que exibe o detalhe do item. Esta tela deve seguir o layout proposto abaixo. Sinta-se a vontade para adicionar novos recursos.
 
 ![](https://github.com/vivadecora/vd-android-test/blob/master/Android-2.0.png)
 ![](https://github.com/vivadecora/vd-android-test/blob/master/Android-2.png)
 
-Esta tela será exibida quando o item da lista for clicado, seja a lista do **objetivo 1** ou do **objetivo 2**.
+Esta tela será exibida quando o item da lista for clicado, seja a lista do **Objetivo 1** ou do **Objetivo 2**.
 
 ## Plus:
 * Clean Architecture
 * Testes
-* Tela com estados (loading, error, success)
+* Tela com estados (*loading*, *error*, *success*)
 * Seja criativo para surpreender-nos com o que desejar
 
 ## Entrega:
-Faça seu teste em um repositório *privado* no Github, Gitlab ou Bitbucket. Ao término você receberá instruções para adicionar um colaborador para avaliar seu teste
+Faça seu teste em um repositório privado no Github, Gitlab ou Bitbucket. Ao término você receberá instruções para adicionar um colaborador para avaliar seu teste.
 
 ### Asset para uso:
 

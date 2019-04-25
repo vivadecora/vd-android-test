@@ -30,9 +30,13 @@ Queremos promover a visualização dos filmes da Marvel. Para isso devemos:
 
   ![Tela 1](https://github.com/vivadecora/vd-android-test/blob/master/android-3.png)
 
-Ao clicar neste item, devemos mostrar a lista de filmes com o termo sugerido. Deve ter o layout sugerido anteriormente no **Objetivo 1**. Para isso você deve obter os filmes neste endpoint:
+Ao clicar neste item, devemos mostrar a lista de filmes com o termo sugerido.Para isso você deve obter os filmes neste endpoint:
 
 ```https://api.themoviedb.org/3/search/movie?query=marvel&api_key=<your_api_key>```
+
+Exibir a lista obtida conforme o layout proposto abaixo:
+
+  ![Tela 1](https://github.com/vivadecora/vd-android-test/blob/master/Android-1.0.png)
 
 Aqui também é esperado o scroll infinito, e 25 itens por requisição.
 Utilizamos o termo *marvel* como sugestão. Sinta-se a vontade para promover outros filmes.

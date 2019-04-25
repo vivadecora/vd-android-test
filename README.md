@@ -46,10 +46,6 @@ Criar uma tela que exibe o detalhe do item. Esta tela deve seguir o layout propo
 
 Esta tela será exibida quando o item da lista for clicado, seja a lista do **objetivo 1** ou do **objetivo 2**.
 
-###Asset para uso:
-
-![](https://github.com/vivadecora/vd-android-test/blob/master/captain-marvel.png)
-
 ## Plus:
 * Clean Architecture
 * Testes
@@ -58,3 +54,8 @@ Esta tela será exibida quando o item da lista for clicado, seja a lista do **ob
 
 ## Entrega:
 Faça seu teste em um repositório *privado* no Github, Gitlab ou Bitbucket. Ao término você receberá instruções para adicionar um colaborador para avaliar seu teste
+
+### Asset para uso:
+
+![](https://github.com/vivadecora/vd-android-test/blob/master/captain-marvel.png)
+

@@ -12,8 +12,8 @@ Seu objetivo é desenvolver um aplicativo em Kotlin, contemplando  os objetivos 
 Os detalhes de cada objetivo estão listados abaixo:
 
 ## Objetivo 1
-Exibir uma lista de filmes consultando a api versão **3** do **The Movies Database**. Esta lista deve ter paginação automática (scroll infinito) e cada request deve requisitar 25 itens
-* **Passo 1:** Obtenha uma key para utilizar a api neste [link](https://developers.themoviedb.org/3/getting-started/introduction)
+Exibir uma lista de filmes consultando a api versão **3** do **The Movies Database**. Esta lista deve ter paginação automática (scroll infinito) e cada request deve requisitar 16 itens.
+* **Passo 1:** Obtenha uma key para utilizar a api neste [link](https://developers.themoviedb.org/3/getting-started/introduction).
 * **Passo 2:** Obter os filmes obtidos no endpoint `/discover/movie`:
 
    ```https://api.themoviedb.org/3/discover/movie?api_key=<your_api_key>```
@@ -38,7 +38,7 @@ Exibir a lista obtida conforme o layout proposto abaixo:
 
   ![Tela 1](https://github.com/vivadecora/vd-android-test/blob/master/Android-1.0.png)
 
-Aqui também é esperado o scroll infinito, e 25 itens por requisição.
+Aqui também é esperado o scroll infinito, e 16 itens por requisição.
 Utilizamos o termo *marvel* como sugestão. Sinta-se a vontade para promover outros filmes.
 
 ## Objetivo 3
@@ -56,7 +56,7 @@ Esta tela será exibida quando o item da lista for clicado, seja a lista do **Ob
 * Seja criativo para surpreender-nos com o que desejar
 
 ## Entrega:
-Faça seu teste em um repositório privado no Github, Gitlab ou Bitbucket. Ao término você receberá instruções para adicionar um colaborador para avaliar seu teste.
+Faça seu teste em um repositório privado no GitHub, GitLab ou Bitbucket. Ao término você receberá instruções para adicionar um colaborador para avaliar seu teste.
 
 ### Asset para uso:
 

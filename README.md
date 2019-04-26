@@ -5,9 +5,9 @@ Este teste é destinado para a vaga de desenvolvedor android. Não se preocupe: 
 Seu objetivo é desenvolver um aplicativo em Kotlin, contemplando  os objetivos principais listados abaixo:
 
 ## Objetivos principais:
-* **Objetivo 1** - Exibir uma lista de filmes 
-* **Objetivo 2** - A cada n filmes, exibir uma view customizada para promover filmes
-* **Objetivo 3** - Ao clicar em um item dessa lista, mostrar a tela com os detalhes do filme
+* **[Objetivo 1](https://github.com/vivadecora/vd-android-test#objetivo-1)** - Exibir uma lista de filmes 
+* **[Objetivo 2](https://github.com/vivadecora/vd-android-test#objetivo-2)** - A cada n filmes, exibir uma view customizada para promover filmes
+* **[Objetivo 3](https://github.com/vivadecora/vd-android-test#objetivo-3)** - Ao clicar em um item dessa lista, mostrar a tela com os detalhes do filme
 
 Os detalhes de cada objetivo estão listados abaixo:
 
@@ -47,7 +47,7 @@ Criar uma tela que exibe o detalhe do item. Esta tela deve seguir o layout propo
 ![](https://github.com/vivadecora/vd-android-test/blob/master/Android-2.0.png)
 ![](https://github.com/vivadecora/vd-android-test/blob/master/Android-2.png)
 
-Esta tela será exibida quando o item da lista for clicado, seja a lista do **Objetivo 1** ou do **Objetivo 2**.
+Esta tela será exibida quando o item da lista for clicado, seja a lista do **[Objetivo 1](https://github.com/vivadecora/vd-android-test#objetivo-1)** ou do **[Objetivo 2](https://github.com/vivadecora/vd-android-test#objetivo-2)**.
 
 ## Plus:
 * Clean Architecture

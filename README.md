@@ -19,7 +19,7 @@ Exibir uma lista de filmes consultando a api versão **3** do **The Movies Datab
    ```https://api.themoviedb.org/3/discover/movie?api_key=<your_api_key>```
 * **Passo 3:** Exibir os filmes seguindo o layout proposto abaixo:
 
-![screenshot](https://github.com/vivadecora/vd-android-test/blob/master/Android-1.png)
+![screenshot](assets/Android-1.png)
 
 
 ## Objetivo 2
@@ -28,7 +28,7 @@ Queremos promover a visualização dos filmes da Marvel. Para isso devemos:
 * O intervalo "n" pode ficar definido em uma variável com o valor inicial 4. Iremos testar esta funcionalidade com valores diferentes.
 * Esse item deve ser exibido seguindo o layout sugerido abaixo:
 
-  ![Tela 1](https://github.com/vivadecora/vd-android-test/blob/master/android-3.png)
+  ![Tela 1](assets/android-3.png)
 
 Ao clicar neste item, devemos mostrar a lista de filmes com o termo sugerido.Para isso você deve obter os filmes neste endpoint:
 
@@ -36,7 +36,7 @@ Ao clicar neste item, devemos mostrar a lista de filmes com o termo sugerido.Par
 
 Exibir a lista obtida conforme o layout proposto abaixo:
 
-  ![Tela 1](https://github.com/vivadecora/vd-android-test/blob/master/Android-1.0.png)
+  ![Tela 1](assets/Android-1.0.png)
 
 Aqui também é esperado o scroll infinito, e 16 itens por requisição.
 Utilizamos o termo *marvel* como sugestão. Sinta-se a vontade para promover outros filmes.
@@ -44,8 +44,8 @@ Utilizamos o termo *marvel* como sugestão. Sinta-se a vontade para promover out
 ## Objetivo 3
 Criar uma tela que exibe o detalhe do item. Esta tela deve seguir o layout proposto abaixo. Sinta-se a vontade para adicionar novos recursos.
 
-![](https://github.com/vivadecora/vd-android-test/blob/master/Android-2.0.png)
-![](https://github.com/vivadecora/vd-android-test/blob/master/Android-2.png)
+![](assets/Android-2.0.png)
+![](assets/Android-2.png)
 
 Esta tela será exibida quando o item da lista for clicado, seja a lista do **[Objetivo 1](#objetivo-1)** ou do **[Objetivo 2](#objetivo-2)**.
 
@@ -60,5 +60,5 @@ Faça seu teste em um repositório privado no GitHub, GitLab ou Bitbucket. Ao t�
 
 ### Asset para uso:
 
-![](https://github.com/vivadecora/vd-android-test/blob/master/captain-marvel.png)
+![](assets/captain-marvel.png)
 
